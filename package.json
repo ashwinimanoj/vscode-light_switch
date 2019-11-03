@@ -3,10 +3,15 @@
   "displayName": "Light Switch",
   "description": "Light Switch allows you to set two themes that swap around day & night. All you have to do is pick your themes and set your preferred times.",
   "version": "0.0.1",
+  "publisher": "timrodz",
   "author": {
     "name": "Juan Alejandro Morais",
     "email": "timrodz@icloud.com",
     "url": "http://timrodz.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timrodz/vscode-light_switch.git"
   },
   "engines": {
     "vscode": "^1.37.0"
@@ -87,6 +92,7 @@
     "pretty-quick": "^2.0.0",
     "tslint": "^5.12.1",
     "typescript": "^3.3.1",
+    "vsce": "^1.69.0",
     "vscode-test": "^1.0.2"
   },
   "dependencies": {
